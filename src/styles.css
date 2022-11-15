@@ -13,7 +13,6 @@ h2{
 
 }
 
-.fa-brands{
-font-size: 70px;
-color: var(--secondary-color-branding);
+.div.row{
+  margin: 30px 0px;
 }
