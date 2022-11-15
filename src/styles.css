@@ -1,0 +1,19 @@
+:root{
+    --primary-branding: #fcedef;
+    --secondary-color-branding: #003e1f;
+}
+
+body{
+    background-color: var(--primary-branding);
+}
+
+h2{
+   font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.fa-brands{
+font-size: 70px;
+color: var(--secondary-color-branding);
+}
