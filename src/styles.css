@@ -1,6 +1,8 @@
 :root{
     --primary-branding: #fcedef;
     --secondary-color-branding: #003e1f;
+    --third-color-branding: #f8c9e0; 
+    --fourth-color-branding: #db7192;
 }
 
 body{
@@ -25,8 +27,44 @@ p.text-main{
  margin-top:150px;
 }
 
+h2.text-main{
+    margin-bottom: 30px;
+}
+
 .nav-link{
     color: var(--secondary-color-branding);
 }
 
+.nav-link:hover{
+    color: var(--third-color-branding);
+}
+
+.nav-link.active{
+color: var(--fourth-color-branding) !important;
+text-decoration: underline;
+}
+
+.button-special{
+       background-color: var(--secondary-color-branding);
+    color: var(--primary-branding);
+    padding: 10px;
+        margin: 10px 0px 0px 100px;
+        border-radius: 5px;
+        text-decoration: none;
+
+}
+.button-special:hover{
+    color: var(--third-color-branding);
+    text-decoration: underline;
+}
+
+
+
+    @media (max-width: 632px) {
+p.text-main{
+ margin-top:30px;
+}
+
+
+}
 
