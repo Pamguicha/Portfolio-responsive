@@ -12,7 +12,18 @@ h2{
     font-family: 'Roboto', sans-serif;
 
 }
+.img-fluid{
+    max-width: 115%;
+}
 
-.div.row{
-  margin: 30px 0px;
+.text-main{
+    margin-left: 100px;
+}
+
+p.text-main{
+ margin-top:150px;
+}
+
+.navbar-nav{
+    text-align: right;
 }
