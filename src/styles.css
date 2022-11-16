@@ -18,12 +18,15 @@ h2{
 
 .text-main{
     margin-left: 100px;
+    color: var(--secondary-color-branding);
 }
 
 p.text-main{
  margin-top:150px;
 }
 
-.navbar-nav{
-    text-align: right;
+.nav-link{
+    color: var(--secondary-color-branding);
 }
+
+
