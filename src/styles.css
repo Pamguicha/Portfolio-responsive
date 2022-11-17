@@ -9,11 +9,7 @@ body{
     background-color: var(--primary-branding);
 }
 
-h2{
-   font-weight: 100;
-    font-family: 'Roboto', sans-serif;
 
-}
 .img-fluid{
     max-width: 115%;
 }
@@ -29,8 +25,15 @@ p.text-main{
  font-size: 30px;
 }
 
+h1.text-main{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
 h2.text-main{
     margin-bottom: 30px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
 }
 
 .nav-link{
@@ -66,7 +69,23 @@ text-decoration: underline;
 p.text-main{
  margin-top:30px;
 }
-
+.button-special{
+       background-color: var(--secondary-color-branding);
+    color: var(--primary-branding);
+    padding: 12px 100px;
+        margin: 10px 10px 0px 130px;
+        border-radius: 5px;
+        text-decoration: none;
 
 }
+
+.text-main{
+    margin-left: 130px;
+  
+}
+
+
+    }
+
+
 
