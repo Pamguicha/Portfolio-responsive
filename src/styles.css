@@ -9,7 +9,7 @@ body{
     background-color: var(--primary-branding);
 }
 
-img.img-fluid{
+img-fluid{
     max-width: 115%;
 }
 

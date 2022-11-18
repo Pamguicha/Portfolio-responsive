@@ -9,11 +9,107 @@ body{
     background-color: var(--primary-branding);
 }
 
-.container{
-    margin-top: 45px;
+.nav-link{
+    color: var(--secondary-color-branding);
 }
 
+.nav-link:hover{
+    color: var(--third-color-branding);
+}
+
+.nav-link.active{
+color: var(--fourth-color-branding) !important;
+text-decoration: underline;
+}
+
+.container{
+    margin-top: 50px;
+
+}
+
+.about-title{
+  margin-top: 20px;
+}
+
+h1{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 800;
+        color: var(--fourth-color-branding);
+}
 
 h2{
     font-family: 'Caveat', cursive;
+    color: var(--secondary-color-branding);
 }
+
+p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: var(--secondary-color-branding);
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.img-thumbnail{
+    border-width: 3px;
+    border-color: white;
+}
+
+button{
+      background-color: var(--secondary-color-branding);
+         padding: 10px;
+           border-radius: 5px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 800;
+
+}
+
+
+
+
+a{
+  color: var(--primary-branding);
+  text-decoration: none;
+}
+
+a:hover{
+    color: var(--third-color-branding);
+    text-decoration: underline;
+}
+
+  
+@media (max-width: 412px) {
+
+  .rounded-circle {
+    margin-bottom: 22px;
+  }
+
+  h1.certifications{
+    font-size: 50px;
+  }
+
+  .about-title, h2 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  p{
+    font-size: 25px;
+  }
+
+.about-title{
+    text-align: center;
+  }
+
+  button{
+    margin: 0 auto; 
+    display: block;
+    padding: 22px 76px;
+    font-size: 24px;
+
+  }
+}
+   
+      
+      
+       
