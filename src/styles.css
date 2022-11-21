@@ -147,3 +147,11 @@ a.style:hover{
 .header-contact{
   font-weight: 400;
 }
+
+@media (max-width:733px){
+  .ct-logo{
+    width: 295px;
+margin-left: 120px;
+  }
+
+}
