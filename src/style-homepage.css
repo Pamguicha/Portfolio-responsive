@@ -86,9 +86,9 @@ p.text-main{
   
 }
     }
- @media (max-width: 320px) {
+ @media (max-width: 375px) {
     .text-main {
-    margin-left: 47px;
+    margin-left: 5px;
     }
 
     .button-special {

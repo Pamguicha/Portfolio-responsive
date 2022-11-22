@@ -231,4 +231,12 @@ font-size: 24px;
 }
 
 
+@media (max-width:375px){
+
+  div.row.third, div.row.fourth {
+  margin-left:0px ;
+}     
+}
+
+
 
