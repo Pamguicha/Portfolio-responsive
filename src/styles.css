@@ -148,7 +148,7 @@ a.style:hover{
   font-weight: 400;
 }
 
- 
+ /*  Responsive project page medium screen  */
 @media(max-width:768px){
   h1.project-title{
 text-align: center;
@@ -167,6 +167,15 @@ display: block;
   }
 
 }
+
+ /*  Responsive project page small screen  */
+ @media(max-width: 412px){
+    a.button-project{
+padding: 10px 50px;
+font-size: 20px;
+    }
+
+ }
 
 
 
