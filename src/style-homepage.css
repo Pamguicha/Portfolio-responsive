@@ -86,7 +86,7 @@ p.text-main{
   
 }
     }
- @media (max-width: 412px) {
+ @media (max-width: 320px) {
     .text-main {
     margin-left: 47px;
     }
