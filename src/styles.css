@@ -85,7 +85,7 @@ a:hover{
 
    
 .fa-solid{
-font-size: 100px;
+font-size: 90px;
 color: var(--fourth-color-branding);
 }
 
@@ -93,6 +93,10 @@ color: var(--fourth-color-branding);
 font-size: 30px;
     font-family: 'Caveat', cursive;
       } 
+
+div.row.third, div.row.fourth {
+  margin-left:55px ;
+}      
        
 a.style{
   color: var(--fourth-color-branding);
@@ -176,7 +180,9 @@ font-size: 24px;
  }
 
 
-  /*  Other services medium screen  */
+
+
+  /*  Other services medium screen  */ 
 
 @media (max-width:733px){
 
@@ -213,6 +219,16 @@ font-size: 24px;
     margin-bottom: 15px;
     display: block;
   }
+
+
 }
+
+@media (max-width:559px){
+
+  div.row.third, div.row.fourth {
+  margin-left:0px ;
+}     
+}
+
 
 
