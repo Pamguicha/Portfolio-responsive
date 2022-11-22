@@ -72,10 +72,13 @@ p.text-main{
 .button-special{
        background-color: var(--secondary-color-branding);
     color: var(--primary-branding);
-    padding: 12px 100px;
-        margin: 10px 10px 0px 130px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
         border-radius: 5px;
         text-decoration: none;
+        margin-left: 100px;
+        margin-right: 100px;
 
 }
 
