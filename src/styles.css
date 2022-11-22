@@ -82,38 +82,7 @@ a:hover{
     text-decoration: underline;
 }
 
-  
-@media (max-width: 412px) {
 
-  .rounded-circle {
-    margin-bottom: 22px;
-  }
-
-  h1.certifications{
-    font-size: 50px;
-  }
-
-  .about-title, h2 {
-    font-size: 50px;
-    text-align: center;
-  }
-
-  p{
-    font-size: 25px;
-  }
-
-.about-title{
-    text-align: center;
-  }
-
-  button{
-    margin: 0 auto; 
-    display: block;
-    padding: 22px 76px;
-    font-size: 24px;
-
-  }
-}
    
 .fa-solid{
 font-size: 100px;
@@ -148,6 +117,41 @@ a.style:hover{
   font-weight: 400;
 }
 
+  /*  About-me page small screen  */ 
+@media (max-width: 412px) {
+
+  .rounded-circle {
+    margin-bottom: 22px;
+  }
+
+  h1.certifications{
+    font-size: 50px;
+  }
+
+  .about-title, h2 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  p{
+    font-size: 25px;
+  }
+
+.about-title{
+    text-align: center;
+  }
+
+  button{
+    margin: 0 auto; 
+    display: block;
+     padding: 0px 50px;
+    font-size: 20px;
+
+  }
+}
+
+
+
  /*  Responsive project page medium screen  */
 @media(max-width:768px){
   h1.project-title{
@@ -169,10 +173,10 @@ display: block;
 }
 
  /*  Responsive project page small screen  */
- @media(max-width: 412px){
+ @media(max-width: 320px){
     a.button-project{
-padding: 10px 50px;
-font-size: 18px;
+padding: -8px 76px;
+font-size: 24px;
     }
 
  }
