@@ -159,11 +159,6 @@ text-align: center;
 margin-top: 15px;
   }
 
-  a.button-project{
-padding: 10px 100px;
-
-
-  }
 
   .new-button{
 margin: 0px auto;
@@ -175,7 +170,6 @@ display: block;
  /*  Responsive project page small screen  */
  @media(max-width: 320px){
     a.button-project{
-padding: -8px 76px;
 font-size: 24px;
     }
 
