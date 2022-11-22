@@ -169,7 +169,7 @@ display: block;
 }
 
  /*  Responsive project page small screen  */
- @media(max-width: 412px){
+ @media(max-width: 377px){
     a.button-project{
 padding: 10px 50px;
 font-size: 20px;
