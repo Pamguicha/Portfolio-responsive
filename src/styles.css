@@ -169,10 +169,10 @@ display: block;
 }
 
  /*  Responsive project page small screen  */
- @media(max-width: 377px){
+ @media(max-width: 412px){
     a.button-project{
 padding: 10px 50px;
-font-size: 20px;
+font-size: 18px;
     }
 
  }
