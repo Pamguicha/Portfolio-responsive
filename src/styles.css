@@ -42,15 +42,16 @@ h1, .second-title{
 h2{
     font-family: 'Caveat', cursive;
     color: var(--secondary-color-branding);
+      font-weight: 100;
 }
 
 
 
 p{
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--secondary-color-branding);
-  font-size: 20px;
+  font-size: 17px;
   line-height: 1.5;
 }
 
@@ -66,6 +67,8 @@ button{
            border: none;
         font-family: 'Roboto', sans-serif;
         font-weight: 800;
+        margin: 0 auto;
+        display: block;
 
 }
 
@@ -147,10 +150,18 @@ a.style:hover{
 
   button{
     display: block;
-     padding: 0px 50px;
+margin: 0 auto;
     font-size: 20px;
 
   }
+
+   img.coding{
+    width: 70px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    display: block;
+  }
+
 }
 
 
@@ -222,6 +233,7 @@ font-size: 24px;
 
 
 }
+  /*  Other services smallscreen  */ 
 
 @media (max-width:559px){
 
@@ -230,6 +242,7 @@ font-size: 24px;
 }     
 }
 
+  /*  Other services smallscreen  */ 
 
 @media (max-width:375px){
 
