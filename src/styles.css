@@ -61,7 +61,7 @@ p{
 
 button{
       background-color: var(--secondary-color-branding);
-         padding: 10px;
+         padding: 12px;
            border-radius: 5px;
            border: none;
         font-family: 'Roboto', sans-serif;
@@ -142,7 +142,6 @@ a.style:hover{
   }
 
   button{
-    margin: 0 auto; 
     display: block;
      padding: 0px 50px;
     font-size: 20px;
@@ -159,28 +158,30 @@ text-align: center;
 margin-top: 15px;
   }
 
-
   .new-button{
 margin: 0px auto;
 display: block;
   }
 
+
 }
 
  /*  Responsive project page small screen  */
- @media(max-width: 320px){
+ @media(max-width: 409px){
     a.button-project{
 font-size: 24px;
     }
 
+
  }
 
 
+  /*  Other services medium screen  */
 
 @media (max-width:733px){
 
      .ct-logo{
-    width: 150px;
+    width: 90px;
     margin: 0 auto;
     display: block;
   }
@@ -208,4 +209,5 @@ font-size: 24px;
     display: block;
   }
 }
+
 
