@@ -148,9 +148,57 @@ a.style:hover{
   font-weight: 400;
 }
 
-@media (max-width:733px){
-  .ct-logo{
-    width: 295px;
+ 
+@media(max-width:768px){
+  h1.project-title{
+text-align: center;
+margin-top: 15px;
+  }
+
+  a.button-project{
+padding: 10px 100px;
+
+
+  }
+
+  .new-button{
+margin: 0px auto;
+display: block;
   }
 
 }
+
+
+
+@media (max-width:733px){
+
+     .ct-logo{
+    width: 150px;
+    margin: 0 auto;
+    display: block;
+  }
+  .fa-solid{
+    width: 50px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  h2.services{
+    margin: 0 auto;
+    display: block;
+  }
+
+  a.style{
+    text-align: center;
+    font-size: 19px;
+    margin: 0 auto;
+    display: block;
+  }
+  img.marketing-tool{
+    width: 70px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    display: block;
+  }
+}
+
