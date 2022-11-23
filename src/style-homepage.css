@@ -83,6 +83,7 @@ font-weight: 300px;
 .fa-github, .fa-instagram, .fa-brands {
     color: var(--fourth-color-branding);
     font-size: 25px;
+    transition: all 150ms ease-in-out;
 }
 
 .fa-github:hover{
