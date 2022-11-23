@@ -31,11 +31,15 @@ text-decoration: underline;
   margin-top: 20px;
 }
 
-h1, .second-title{
-        font-family: 'Roboto', sans-serif;
+h1{
+
         font-weight: 800;
         color: var(--fourth-color-branding);
 }
+.second-title{
+  font-family: 'Roboto', sans-serif;
+       font-weight: 800;
+}        
 
 
 
