@@ -60,7 +60,7 @@ p{
     border-color: white;
 }
 
-button{
+  button.myCurriculum{
       background-color: var(--secondary-color-branding);
          padding: 12px;
            border-radius: 5px;
@@ -148,7 +148,7 @@ a.style:hover{
     text-align: center;
   }
 
-  button{
+  button.myCurriculum{
     display: block;
 margin: 0 auto;
     font-size: 20px;
@@ -161,6 +161,8 @@ margin: 0 auto;
     margin-bottom: 15px;
     display: block;
   }
+
+
 
 }
 
@@ -250,6 +252,5 @@ font-size: 24px;
   margin-left:0px ;
 }     
 }
-
 
 
