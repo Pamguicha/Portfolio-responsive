@@ -80,21 +80,22 @@ font-weight: 300px;
 
 }
 
-.fa-github{
-    color: #43009a;
+.fa-github, .fa-instagram, .fa-brands {
+    color: var(--fourth-color-branding);
+    font-size: 25px;
 }
 
-.fa-instagram{
-    color: black;
+.fa-github:hover{
+color: #f8c9e0;
+}
+.fa-instagram:hover{
+color: #f8c9e0;
+}
+.fa-brands:hover{
+color: #f8c9e0;
 }
 
-.fa-brands{
-font-size: 25px;
 
-
-
-
-}
 
 
     @media (max-width: 632px) {

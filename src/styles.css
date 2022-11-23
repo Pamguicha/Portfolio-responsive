@@ -135,6 +135,36 @@ a.style:hover{
   font-weight: 400;
 }
 
+footer{
+background-color: white;
+padding: 30px 30px;
+display: block;
+text-align: center;
+}
+
+a.footer-second{
+color: var(--secondary-color-branding);
+text-decoration: none;
+font-size: 16px;
+font-family: 'Roboto', sans-serif;
+font-weight: 300px;
+}
+
+.fa-github, .fa-instagram, .fa-brands {
+    color: var(--fourth-color-branding);
+        font-size: 25px;
+}
+
+.fa-github:hover{
+color: #f8c9e0;
+}
+.fa-instagram:hover{
+color: #f8c9e0;
+}
+.fa-brands:hover{
+color: #f8c9e0;
+}
+
   /*  About-me page small screen  */ 
 @media (max-width: 412px) {
 
