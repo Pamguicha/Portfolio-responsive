@@ -177,12 +177,14 @@ color: #f8c9e0;
   }
 
   .about-title, h2 {
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
+    line-height: 1.5;
   }
 
   p{
-    font-size: 25px;
+    font-size: 17px;
+    text-align: center;
   }
 
 .about-title{
