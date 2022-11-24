@@ -96,7 +96,9 @@ color: #f8c9e0;
 color: #f8c9e0;
 }
 
-
+a.open-source{
+    color: var(--fourth-color-branding);
+}
 
 
     @media (max-width: 632px) {
