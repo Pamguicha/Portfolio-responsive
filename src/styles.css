@@ -267,9 +267,13 @@ font-size: 24px;
     margin: 0 auto;
     display: block;
     padding: 10px;
+        transition: all 200ms ease-in-out;
+           cursor: pointer;
   }
   a.style:hover{
-    text-decoration: none;
+    text-decoration: underline;
+ 
+
   }
   img.marketing-tool{
     width: 70px;
